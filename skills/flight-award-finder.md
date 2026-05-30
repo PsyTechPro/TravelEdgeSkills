@@ -1,3 +1,8 @@
+---
+name: flight-award-finder
+description: "Find the best award flights using points and miles. Use when someone asks how to fly using points, find award flights, use airline miles, book business or first class with points, or get the best value from their miles and points for any route or destination."
+---
+
 # Flight Award Finder
 
 ## Purpose
@@ -47,23 +52,23 @@ Before searching, map user's points to transfer partners:
 
 ### Step 2: Route-Specific Sweet Spots
 
-**North America → Europe:**
+**North America to Europe:**
 - Best: Air Canada Aeroplan (45,000 miles business class, no fuel surcharges)
 - Also great: Turkish Miles&Smiles (45,000 miles business on Star Alliance)
 - Avoid: British Airways Avios (high fuel surcharges on BA metal)
 
-**North America → Asia:**
-- Best: ANA Mileage Club (75,000-95,000 miles round trip first class — one of the best deals in points)
+**North America to Asia:**
+- Best: ANA Mileage Club (75,000-95,000 miles round trip first class)
 - Also great: Air Canada Aeroplan (business class 75,000-85,000 miles)
 - Singapore KrisFlyer for Singapore Airlines first class
 
-**North America → South America:**
+**North America to South America:**
 - Best: LifeMiles (Avianca) — often 30,000-35,000 miles business class
 - Also: American AAdvantage for LATAM routes
 
 **Within North America:**
 - Best: Alaska Mileage Plan for West Coast routes
-- Southwest Rapid Rewards for flexibility (points = cash value, no blackout dates)
+- Southwest Rapid Rewards for flexibility (no blackout dates)
 
 **Within Europe:**
 - Best: British Airways Avios (distance-based, short hops are extremely cheap — 4,500 Avios one-way under 650 miles)
@@ -76,20 +81,18 @@ Tell the user exactly where to look:
 2. **British Airways website** — shows Oneworld partner space
 3. **Air Canada website** — shows excellent Star Alliance space including partners
 4. **ANA website** — shows their own and some partner space
-5. **Point.me** — paid tool but searches multiple programs simultaneously
-6. **Seats.aero** — searches award space across programs, highly recommended
-7. **Expertflyer.com** — most powerful award search tool, paid but worth it for serious hackers
+5. **Seats.aero** — searches award space across programs, highly recommended
+6. **Expertflyer.com** — most powerful award search tool, paid but worth it for serious travelers
 
 ### Step 4: Output Format
 Provide the user with:
 
-```
 RECOMMENDED STRATEGY FOR [ROUTE]:
 
 Best Option: [Program Name]
 Points Required: [X,XXX one-way / round trip]
 Points You Have: [X,XXX — enough/not enough]
-Transfer From: [Bank Card Program → Airline Program]
+Transfer From: [Bank Card Program to Airline Program]
 Transfer Ratio: [1:1 etc]
 Where to Search: [specific website]
 Notes: [fuel surcharges, partner availability, booking tips]
@@ -98,18 +101,17 @@ Alternative Option: [Program Name]
 [same format]
 
 BOOKING TIP: [specific actionable advice for this route]
-```
 
 ## Key Rules to Always Follow
 - **Never recommend Delta SkyMiles** for premium cabins — notoriously poor value and dynamic pricing
 - **Always check fuel surcharges** — British Airways charges brutal surcharges on BA-operated flights
-- **Aeroplan is almost always underrated** — push this program heavily, most people don't know it
+- **Aeroplan is almost always underrated** — push this program heavily, most people do not know it
 - **ANA first class is the holy grail** — 75,000-85,000 Amex points round trip Tokyo first class is one of the best deals in travel
 - **Turkish Miles&Smiles is criminally underused** — Star Alliance business class to Europe for 45,000 miles, must be booked by phone
 - **Book one-way when it makes sense** — mixing programs for outbound and return often saves significant miles
 
 ## Handling "I Don't Have Enough Points"
-If user doesn't have enough points:
+If user does not have enough points:
 1. Calculate the gap
 2. Suggest the fastest signup bonus to bridge it (e.g., "Chase Sapphire Preferred gives 60,000 points after $4,000 spend — that covers your entire trip")
 3. Mention that authorized user cards earn points too
