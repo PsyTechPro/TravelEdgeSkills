@@ -1,10 +1,10 @@
 # TravelEdgeSkills ✈️
 
-> The travel knowledge that frequent flyers, points hobbyists, and airline insiders keep to themselves — now available as AI agent skills for everyone.
+> The travel knowledge that frequent flyers, points hobbyists, and airline insiders keep to themselves. Now available as AI agent skills for everyone.
 
-Most people leave **thousands of dollars in free travel** on the table every year. Not because they can't afford it. Because nobody told them how it works.
+Most people leave **thousands of dollars in free travel** on the table every year because nobody told them how it works.
 
-TravelEdgeSkills gives your AI agent the deep, specific knowledge of a 10-year points obsessive — so you can fly business class on economy budgets, get hotel suite upgrades, find mistake fares, and build a credit card strategy that actually works.
+TravelEdgeSkills gives your AI agent the deep, specific knowledge of a 10-year points obsessive so you can fly business class on economy budgets, get hotel suite upgrades, find mistake fares, and build a credit card strategy that actually works.
 
 ---
 
@@ -143,4 +143,4 @@ See [LICENSE](LICENSE) for details.
 
 ---
 
-*Built for people who believe business class shouldn't be a luxury reserved for the wealthy — just for the informed.*
+*Built for people who believe business class shouldn't be a luxury reserved for the wealthy. Just for the informed.*
