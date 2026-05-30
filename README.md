@@ -31,7 +31,7 @@ Skills are markdown files that give AI agents specialized knowledge and step-by-
 
 ## Installation
 
-### Option 1: Manual Install for Claude.ai (No Code Required, works in 60 seconds)
+### Option 1: Manual Install for Claude.ai (No code required, works in 60 seconds)
 
 1. Download the `.md` files from the `/skills` folder above
 2. Go to [claude.ai](https://claude.ai) on your laptop
