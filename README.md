@@ -2,7 +2,7 @@
 
 > The travel knowledge that frequent flyers, points hobbyists, and airline insiders keep to themselves. Now available as AI agent skills for everyone.
 
-Most people leave **thousands of dollars in free travel** on the table every year because nobody told them how it works.
+Most people leave **thousands of dollars in free travel** on the table every year. Not because they can't afford it. Because nobody told them how it works.
 
 TravelEdgeSkills gives your AI agent the deep, specific knowledge of a 10-year points obsessive so you can fly business class on economy budgets, get hotel suite upgrades, find mistake fares, and build a credit card strategy that actually works.
 
@@ -10,7 +10,7 @@ TravelEdgeSkills gives your AI agent the deep, specific knowledge of a 10-year p
 
 ## What Are Skills?
 
-Skills are markdown files that give AI agents specialized knowledge and step-by-step workflows for specific tasks. When you add these to your setup, your AI assistant can recognize travel hacking tasks and apply expert-level frameworks and real strategies — not generic advice.
+Skills are markdown files that give AI agents specialized knowledge and step-by-step workflows for specific tasks. When you add these to your setup, your AI assistant can recognize travel hacking tasks and apply expert-level frameworks and real strategies, not generic advice.
 
 ---
 
@@ -18,43 +18,44 @@ Skills are markdown files that give AI agents specialized knowledge and step-by-
 
 | Skill | What It Does |
 |-------|-------------|
-| [flight-award-finder](skills/flight-award-finder.md) | Find the best award flights using your points — specific routes, programs, and sweet spots most people never discover |
-| [credit-card-strategist](skills/credit-card-strategist.md) | Build the optimal card stack, evaluate signup bonuses, know exactly which cards to get and when |
-| [hotel-hacker](skills/hotel-hacker.md) | Get free suite upgrades, free nights, and the perks you're entitled to but never claim |
-| [points-valuator](skills/points-valuator.md) | Know exactly what your points are worth in dollars and whether any redemption is brilliant or terrible |
-| [mistake-fare-hunter](skills/mistake-fare-hunter.md) | Find and book mistake fares and flash sales — business class for economy prices |
 | [airport-hacker](skills/airport-hacker.md) | Access lounges, get TSA PreCheck and Global Entry free, and move through airports like a pro |
+| [credit-card-strategist](skills/credit-card-strategist.md) | Build the optimal card stack, evaluate signup bonuses, know exactly which cards to get and when |
+| [flight-award-finder](skills/flight-award-finder.md) | Find the best award flights using your points, specific routes, programs, and sweet spots most people never discover |
+| [hotel-hacker](skills/hotel-hacker.md) | Get free suite upgrades, free nights, and the perks you are entitled to but never claim |
+| [mistake-fare-hunter](skills/mistake-fare-hunter.md) | Find and book mistake fares and flash sales, business class for economy prices |
+| [points-transfer-optimizer](skills/points-transfer-optimizer.md) | Transfer points to the right partner for your specific route and avoid the transfers that destroy value |
+| [points-valuator](skills/points-valuator.md) | Know exactly what your points are worth in dollars and whether any redemption is brilliant or terrible |
 | [travel-card-optimizer](skills/travel-card-optimizer.md) | Know exactly which card to swipe for every purchase to maximize points earning |
-| [points-transfer-optimizer](skills/points-transfer-optimizer.md) | Transfer points to the right partner for your specific route — and avoid the transfers that destroy value |
 
 ---
 
 ## Installation
 
-### Option 1: CLI Install (Recommended — works in 60 seconds)
-
-```bash
-# Install all 8 skills globally
-npx skills add TravelEdgeSkills -g -y
-
-# Or install to current project only
-npx skills add TravelEdgeSkills -y
-
-# List installed skills
-npx skills list
-```
-
-### Option 2: Manual Install for Claude.ai
+### Option 1: Manual Install for Claude.ai (No Code Required, works in 60 seconds)
 
 1. Download the `.md` files from the `/skills` folder above
 2. Go to [claude.ai](https://claude.ai) on your laptop
 3. Click **Customize** at the top left
 4. Click **Skills**
 5. Click the **+** icon to add a new skill
-6. Upload the `.md` file
-7. Click **Save**
+6. Click **Create skill**
+7. Upload the `.md` file
+8. Click **Save**
 
-Repeat for each skill you want. Done — no code required.
+Repeat for each skill you want. Done, no code required.
+
+### Option 2: Install via Terminal
+
+```bash
+# Install all 8 skills globally (works across all projects)
+npx skills add PsyTechPro/TravelEdgeSkills -g -y
+
+# Install to current project only
+npx skills add PsyTechPro/TravelEdgeSkills -y
+
+# List installed skills
+npx skills list
+```
 
 ### Option 3: Direct Download
 
@@ -66,11 +67,11 @@ Download individual skill files from the `/skills` directory and add them to you
 
 These skills work with any AI agent that supports markdown skill files:
 
-- **Claude** (claude.ai — no code required)
-- **Claude Code** (CLI)
+- **Claude** (claude.ai, no code required)
+- **Claude Code**
 - **Cursor** (IDE)
 - **Windsurf**
-- **Gemini CLI**
+- **Gemini**
 - **Copilot**
 - **Codex**
 - And 30+ others
@@ -83,25 +84,12 @@ Once installed, just ask your AI assistant naturally:
 
 ```
 "I have 80,000 Chase points. I want to fly business class to Paris. What's my best move?"
-→ Uses flight-award-finder + points-transfer-optimizer
-
 "Which credit card should I get next for travel?"
-→ Uses credit-card-strategist
-
 "I'm checking into a Hyatt tomorrow. What upgrades am I entitled to?"
-→ Uses hotel-hacker
-
 "Is 60,000 miles for this flight a good deal?"
-→ Uses points-valuator
-
 "How do I get into the lounge at JFK without paying?"
-→ Uses airport-hacker
-
 "Should I put my groceries on my Amex Gold or Chase Sapphire?"
-→ Uses travel-card-optimizer
-
 "I'm seeing a business class flight to Tokyo for $900. Is that real? Should I book it?"
-→ Uses mistake-fare-hunter
 ```
 
 ---
@@ -112,7 +100,7 @@ The travel hacking world is deliberately obscure. Points bloggers bury the best 
 
 The result: people who know the system fly business class for free while everyone else pays full price for economy.
 
-TravelEdgeSkills puts that knowledge directly into your AI assistant — specific, actionable, and without the affiliate agenda.
+TravelEdgeSkills puts that knowledge directly into your AI assistant, specific, actionable, and without the affiliate agenda.
 
 ---
 
@@ -137,10 +125,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## License
 
-MIT License — use these skills however you want.
+MIT License, use these skills however you want.
 
 See [LICENSE](LICENSE) for details.
 
 ---
 
-*Built for people who believe business class shouldn't be a luxury reserved for the wealthy. Just for the informed.*
+*Built for people who believe business class shouldn't be a luxury reserved for the wealthy, just for the informed.*
