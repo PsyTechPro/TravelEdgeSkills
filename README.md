@@ -130,6 +130,6 @@ MIT License, use these skills however you want.
 See [LICENSE](LICENSE) for details.
 
 ---
-Created by Eric Weiser | PsyTechPro
+Created by Eric B. Weiser | PsyTechPro
 
 *Built for people who believe business class shouldn't be a luxury reserved for the wealthy, just for the informed.*
